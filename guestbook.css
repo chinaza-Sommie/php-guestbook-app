@@ -1,0 +1,113 @@
+*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body{
+			/*background-color: #591a1a7a;*/
+			background-color: #591a1a4f;
+		}
+
+		h1{
+			text-align: center;
+			font-style: italic;
+			padding: 10px 0;
+			background-color: #591a1a;
+			color: white;
+			margin-bottom: 30px;
+		}
+
+		form{
+			display: flex;
+			justify-content: center;
+
+		}
+
+		form>div{
+			border: 1px solid #591a1a;
+			box-shadow: 5px 5px 5px #591a1a;
+			border-radius: 5px;
+			width: 60%;
+			padding: 10px 20px;
+		}
+
+		form>div p{
+			/*text-align: center;*/
+			color: #591a1a;
+			font-size: 21px;
+			font-weight: bold;
+			font-style: italic;
+			padding: 10px 0
+
+		}
+
+		input[type="text"]{
+			width:100%;
+			padding: 6px;
+			font-size: 18px;
+			color: #591a1a;
+			background-color: inherit;
+			border:none;
+			outline: none;
+			text-align:center;
+			border-bottom: 3px double #591a1a;
+			margin-bottom: 15px;
+		}
+
+		.select{
+			margin: 10px 0;
+		}
+		select,
+		input[type="submit"],
+		.bookroom input{
+			background-color: #591a1a;
+			border:none;
+			font-size: 16px;
+			border-radius: 5px;
+			padding: 5px ;
+			color: white;
+		}
+
+
+		input[type="submit"]{
+			padding: 5px 10px;
+			margin-top: 20px;
+		}
+
+		.bookroom input{
+			width:100%;
+			padding: 20px 0;
+		}
+
+		.bookroom input:hover{
+			border: 1px solid #591a1a;
+			background-color: inherit;
+			font-weight: bold;
+			color: #591a1a;
+			cursor: pointer;
+		}
+
+		.pending-price{
+			text-align:center;
+			color: #591a1a;
+			font-size:25px;
+			margin-top: 20px;
+			border-top: 1px solid #591a1a;
+		}
+		
+
+		.errormsg{
+			color:red;
+			padding:20px 0;
+			font-style: italic;
+			font-weight: bold;
+			text-align: center;
+		}
+
+		.successmsg{
+			color:green;
+			font-style: italic;
+			font-weight: bold;
+			text-align: center;
+		}
