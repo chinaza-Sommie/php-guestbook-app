@@ -1,10 +1,10 @@
 <?php
-
+	
 		$DSN = 'mysql:host=localhost;dbname=bincom_todo';
  		$ConnectingDB = new PDO($DSN,'root','');
 
  		session_start();
-
+echo "just testing";
 	function ErrorMessage(){
  		if(isset($_SESSION["ErrorMessage"])){
  			$Output = "<div class='errormsg'>";
